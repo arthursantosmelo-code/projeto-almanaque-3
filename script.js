@@ -75,7 +75,20 @@ const perguntas = [
             
         ]
     },
-];
+]; enunciado: " Você ja jogou um jogo chama do Dragon Crystal se sim qual desses dois canais voce acompanhava",
+        alternativas: [
+            {
+                texto: " Tigre TV.",
+                afirmacao:"afirmacao"
+            },
+            {
+                texto: "Inemafoo.",
+                afirmacao:"afirmacao"
+            }
+            
+            
+        ]
+    }
 
 let atual = 0; 
 let perguntaAtual;
