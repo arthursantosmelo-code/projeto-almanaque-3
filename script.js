@@ -10,25 +10,24 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Isso é assustador!",
-                afirmacao: "afirmacao"
+                afirmacao: "No início, achou a tecnologia assustadora."
             },
             {
                 texto: "Isso é maravilhoso!",
-                afirmacao: "afirmacao"
+                afirmacao: "Ficou entusiasmado com as possibilidades da nova tecnologia."
             }           
-            
         ]
     },
     {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial (IA), uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre elaIA. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de tecnologia em sala de aula. Qual atitude você toma?",
+        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial (IA), uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre ela. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de tecnologia em sala de aula. Qual atitude você toma?",
         alternativas: [
             {
-                texto:"Utilizar uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento",
-                afirmacao:"afirmacao"
+                texto: "Utilizar uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
+                afirmacao: "Passou a utilizar a IA como ferramenta de auxílio nos estudos."
             },
             {
                 texto: "Escrever o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao:"afirmacao"
+                afirmacao: "Preferiu confiar em pesquisas tradicionais e na troca de ideias com colegas."
             }
         ]
     },
@@ -36,59 +35,55 @@ const perguntas = [
         enunciado: "Após a elaboração do trabalho, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
         alternativas: [
             {
-                texto:"Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao:"afirmacao"
+                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendo a importância de proteger os trabalhadores.",
+                afirmacao: "Demonstrou preocupação com o impacto da automação no mercado de trabalho."
             },
             {
-                texto:"Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao:"afirmacao"
+                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
+                afirmacao: "Acredita que a inovação tecnológica gera novas oportunidades de carreira."
             }
-            
         ]
     },
     {
         enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
         alternativas: [
             {
-                texto:"Criar uma imagem utilizando uma plataforma de design como o Paint.",
-                afirmacao:"afirmacao"
+                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
+                afirmacao: "Optou por expressar sua criatividade manualmente com ferramentas tradicionais de pintura."
             },
             {
-                texto:"Criar uma imagem utilizando um gerador de imagem de IA.",
-                afirmacao:"afirmacao"
+                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
+                afirmacao: "Decidiu explorar geradores automáticos para criar arte visual."
             }
-            
         ]
     },
     {
-        enunciado: " Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda de uma IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz?",
+        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda de uma IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz?",
         alternativas: [
             {
                 texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-                afirmacao:"afirmacao"
+                afirmacao: "Entendeu a importância de revisar o conteúdo gerado por IA para garantir a precisão."
             },
             {
                 texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-                afirmacao:"afirmacao"
+                afirmacao: "Acredita que a elaboração de prompts já é uma contribuição suficiente para o trabalho."
             }
-            
-            
         ]
     },
-]; enunciado: " Você ja jogou um jogo chama do Dragon Crystal se sim qual desses dois canais voce acompanhava",
+    {
+        enunciado: "Você já jogou um jogo chamado Dragon Crystal? Se sim, qual desses dois canais você acompanhava?",
         alternativas: [
             {
-                texto: " Tigre TV.",
-                afirmacao:"afirmacao"
+                texto: "Tigre TV.",
+                afirmacao: "Acompanhava o canal Tigre TV para ver conteúdos de jogos."
             },
             {
                 texto: "Inemafoo.",
-                afirmacao:"afirmacao"
+                afirmacao: "Preferia assistir às gameplays do canal Inemafoo."
             }
-            
-            
         ]
     }
+];
 
 let atual = 0; 
 let perguntaAtual;
